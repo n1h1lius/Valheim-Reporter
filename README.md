@@ -41,7 +41,7 @@
 
 ### 🚀 Quick Installation
 
-1.  **Download:** Get the latest `.dll` from [Thunderstore](https://valheim.thunderstore.io/).
+1.  **Download:** Get the latest `.dll` from [Thunderstore](https://valheim.thunderstore.io/), from [NexusMods](https://www.nexusmods.com/valheim/mods/3298) or from latest release.
 2.  **Plugin:** Drop the file into your `BepInEx/plugins` folder.
 3.  **Data:** Place your `categories.json` inside `ValheimReporter/Data`.
 4.  **Launch:** Press `F10` (default) in-game to start reporting!
@@ -52,7 +52,7 @@
 
 If you are an administrator looking to set up the **Advanced Method**, check these resources:
 
-* 🌐 **[Category Generator](https://valheim-reporter.pages.dev/html/category_generator.html):** Tool to encrypt your Webhooks and build your JSON.
+* 🌐 **[Category Generator]([https://valheim-reporter.pages.dev/html/category_generator.html](https://n1h1lius.orlog.workers.dev/static/sites/valheim-reporter/html/category_generator)):** Tool to encrypt your Webhooks and build your JSON.
 * ⚡ **[Backend API (index.js)](https://github.com/n1h1lius/Valheim-Reporter/tree/main/Valheim_Reporter_API):** The Cloudflare Worker script to handle secure requests.
 
 ---
@@ -60,7 +60,7 @@ If you are an administrator looking to set up the **Advanced Method**, check the
 ### 🤝 Contributing & Support
 
 * **Found a bug?** Open an [Issue](https://github.com/n1h1lius/Valheim-Reporter/issues).
-* **Want to help?** Pull Requests are welcome! Check the [Contribution FAQ](https://valheim-reporter.pages.dev/#faqs).
+* **Want to help?** Pull Requests are welcome! Check the [Contribution FAQ]([https://valheim-reporter.pages.dev/#faqs](https://n1h1lius.orlog.workers.dev/static/sites/valheim-reporter/valheimReporter#faqs)).
 * **Support the project:** If this mod helps your community, consider [Buying me a coffee](https://ko-fi.com/n1h1lius).
 
 ---
