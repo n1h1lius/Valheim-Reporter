@@ -1,0 +1,9 @@
+{
+    "name": "ValheimReporter",
+    "description": "A secure, customizable in-game reporting system with Discord integration and image support. Protect your community with ease.",
+    "version_number": "1.0.0",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2202"
+    ],
+    "website_url": "https://valheim-reporter.pages.dev/"
+}
