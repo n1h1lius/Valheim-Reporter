@@ -1,0 +1,24 @@
+{
+    "manifestVersion": 1,
+    "name": "ValheimReporter",
+    "authorName": "n1h1lius",
+    "websiteUrl": "https://valheim-reporter.pages.dev/",
+    "displayName": "Valheim Reporter",
+    "description": "Secure in-game reporting system with Discord integration, image support, and webhook encryption.",
+    "gameVersion": "0.217.46", 
+    "networkMode": "both",
+    "packageType": "mod",
+    "installMode": "managed",
+    "installedAtTime": 0,
+    "loaders": ["bepinex"],
+    "dependencies": ["denikson-BepInExPack_Valheim-5.4.2202"],
+    "incompatibilities": [],
+    "optionalDependencies": [],
+    "versionNumber": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+    },
+    "enabled": true,
+    "icon": "ValheimReporter/Data/Images/icon.png"
+}
