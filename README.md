@@ -52,7 +52,7 @@
 
 If you are an administrator looking to set up the **Advanced Method**, check these resources:
 
-* 🌐 **[Category Generator](https://valheim-reporter.pages.dev/html/category_generator.html](https://n1h1lius.orlog.workers.dev/static/sites/valheim-reporter/html/category_generator.html):** Tool to encrypt your Webhooks and build your JSON.
+* 🌐 **[Category Generator](https://n1h1lius.orlog.workers.dev/static/sites/valheim-reporter/html/category_generator.html):** Tool to encrypt your Webhooks and build your JSON.
 * ⚡ **[Backend API (index.js)](https://github.com/n1h1lius/Valheim-Reporter/tree/main/Valheim_Reporter_API):** The Cloudflare Worker script to handle secure requests.
 
 ---
