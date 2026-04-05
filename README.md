@@ -48,7 +48,7 @@
 ### 🚀 Quick Installation
 
 1.  **Download:** Get the latest `.dll` from [Thunderstore](https://thunderstore.io/c/valheim/p/N1h1lius/ValheimReporter/), from [NexusMods](https://www.nexusmods.com/valheim/mods/3298) or from [Latest Release](https://github.com/n1h1lius/Valheim-Reporter/releases).
-2.  **Plugin:** Drop the file into your `BepInEx/plugins` folder.
+2.  **Plugin:** Drop the file into your `BepInEx/config/ValheimReporter/Data` folder.
 3.  **Data:** Place your `categories.json` inside `ValheimReporter/Data`.
 4.  **Launch:** Press `F10` (default) in-game to start reporting!
 
