@@ -1,0 +1,48 @@
+{
+    "category_1": {
+
+        "name": "Category 1",
+        "webhook": "webhook_url",
+        "required": {
+
+            "pictures": true,
+            "subject": true,
+            "description": true
+        },
+        "subcategories": {
+
+            "subcat_1": {
+                "name": "Subcategory 1",
+                "webhook": "webhook_url",
+                "required": {
+
+                    "pictures": true,
+                    "subject": true,
+                    "description": true
+                }
+            }, 
+            "subcat_2": {
+                "name": "Subcategory 2",
+                "webhook": "webhook_url",
+                "required": {
+
+                    "pictures": true,
+                    "subject": false,
+                    "description": true
+                }
+            }
+        }
+
+    },
+    "category_2": {
+
+        "name": "Category 2",
+        "webhook": "webhook_url",
+        "required": {
+
+            "pictures": true,
+            "subject": true,
+            "description": true
+        }
+    }
+}
