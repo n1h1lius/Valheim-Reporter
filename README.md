@@ -16,7 +16,8 @@
 **Valheim Reporter** is a professional-grade, in-game reporting system for Valheim servers. It bridges the gap between players and staff by providing an organic way to report issues, bugs, or players directly to your **Discord** server with full visual evidence.
 
 > [!IMPORTANT]
-> **Looking for the full setup guide?** > Visit the [Official Documentation Website](https://n1h1lius.orlog.workers.dev/static/sites/valheim-reporter/valheimReporter) for deep technical details and tutorials.
+> **Looking for the full setup guide?**
+> Visit the [Official Documentation Website](https://n1h1lius.orlog.workers.dev/static/sites/valheim-reporter/valheimReporter) for deep technical details and tutorials.
 
 ---
 
@@ -47,10 +48,11 @@
 
 ### 🚀 Quick Installation
 
-1.  **Download:** Get the latest `.dll` from [Thunderstore](https://thunderstore.io/c/valheim/p/N1h1lius/ValheimReporter/), from [NexusMods](https://www.nexusmods.com/valheim/mods/3298) or from [Latest Release](https://github.com/n1h1lius/Valheim-Reporter/releases).
-2.  **Plugin:** Drop the file into your `BepInEx/config/ValheimReporter/Data` folder.
-3.  **Data:** Place your `categories.json` inside `ValheimReporter/Data`.
-4.  **Launch:** Press `F10` (default) in-game to start reporting!
+1.  **Download:** Get the latest `.dll` from [Thunderstore](https://thunderstore.io/c/valheim/p/N1h1lius/ValheimReporter/), [NexusMods](https://www.nexusmods.com/valheim/mods/3298), or [GitHub](https://github.com/n1h1lius/Valheim-Reporter/releases).
+2.  **Plugin:** Drop the `.dll` file into your `BepInEx/plugins` folder. 
+3.  **Setup:** Launch the game once. The mod will automatically create the folder structure in `BepInEx/config/ValheimReporter/`.
+4.  **Config:** Place your `categories.json` inside `BepInEx/config/ValheimReporter/Data/`.
+5.  **Launch:** Press `F10` (default) in-game to start reporting!
 
 ---
 
@@ -63,10 +65,19 @@ If you are an administrator looking to set up the **Advanced Method**, check the
 
 ---
 
+### 📜 Changelog
+**Latest Version: 1.1.0**
+* Fixed input conflicts (Ghost Actions) while typing reports.
+* Implemented new Auto-Installation system via Embedded Assets.
+* Migrated data structure to the official BepInEx Config folder.
+* [**View Full Version History & Details**](https://github.com/n1h1lius/Valheim-Reporter/releases)
+
+---
+
 ### 🤝 Contributing & Support
 
 * **Found a bug?** Open an [Issue](https://github.com/n1h1lius/Valheim-Reporter/issues).
-* **Want to help?** Pull Requests are welcome! Check the [Contribution FAQ]([https://valheim-reporter.pages.dev/#faqs](https://n1h1lius.orlog.workers.dev/static/sites/valheim-reporter/valheimReporter#faqs)).
+* **Want to help?** Pull Requests are welcome! Check the [Contribution FAQ](https://n1h1lius.orlog.workers.dev/static/sites/valheim-reporter/valheimReporter#faqs).
 * **Support the project:** If this mod helps your community, consider [Buying me a coffee](https://ko-fi.com/n1h1lius).
 
 ---
