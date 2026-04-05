@@ -15,6 +15,7 @@ namespace ValheimReporter
         public static Boolean debugMode = false;
         public static Boolean outputMode = false;
         private static Boolean hasInitializedLogFile = false;
+        public static Boolean isReporterOpen = false;
         public static readonly string ENCRIPTION_HEADER = "[NH]-3247";
         private static readonly ManualLogSource Logger = BepInEx.Logging.Logger.CreateLogSource("ValheimReporter");
 
@@ -163,7 +164,7 @@ namespace ValheimReporter
 
                     try 
                     {
-                        string logFilePath = Path.Combine(ValheimReporter.dllPath, "ValheimReporter", "NH-ValheimReporter.log");
+                        string logFilePath = Path.Combine(ValheimReporter.RootConfigValheimPath, "NH-ValheimReporter.log");
 
                         if (!hasInitializedLogFile)
                         {
@@ -199,11 +200,9 @@ namespace ValheimReporter
             try
             {
 
-                string logsDirectory = Path.Combine(ValheimReporter.dllPath, "ValheimReporter", "Logs");
+                if (!Directory.Exists(ValheimReporter.LogsPath)) return;
 
-                if (!Directory.Exists(logsDirectory)) return;
-
-                DirectoryInfo dirInfo = new DirectoryInfo(logsDirectory);
+                DirectoryInfo dirInfo = new DirectoryInfo(ValheimReporter.LogsPath);
                 DirectoryInfo[] folders = dirInfo.GetDirectories();
 
                 int maxLogs = ValheimReporter.ConfigMaxLogs.Value;
@@ -353,6 +352,22 @@ namespace ValheimReporter
                 {
                     return false;
                 }
+            return true;
+        }
+    }
+
+    [HarmonyPatch(typeof(Player), "TakeInput")]
+    static class BlockInputPatch
+    {
+        /// <summary>
+        /// If the UI is open, returns false and the game does NOT process the input
+        /// </summary>
+        static bool Prefix()
+        {
+            if (Utils.isReporterOpen) 
+            {
+                return false;
+            }
             return true;
         }
     }
