@@ -20,6 +20,12 @@
 
 ---
 
+### Quick Guide Video
+
+[![Valheim Reporter - Quick Guide Video](https://img.youtube.com/vi/twSG-4Fdybo/maxresdefault.jpg)](https://www.youtube.com/watch?v=twSG-4Fdybo)
+
+---
+
 ### ✨ Key Features
 
 * 📸 **Clean Screenshots:** Captures the game world without HUD or UI interference.
