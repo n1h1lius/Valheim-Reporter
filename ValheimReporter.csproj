@@ -68,6 +68,13 @@
     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
         <HintPath>$(ValheimPath)\valheim_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
     </Reference>
+
+    <EmbeddedResource Include="ValheimReporter\Data\Assets\confirm.ogg" />
+    <EmbeddedResource Include="ValheimReporter\Data\Assets\valheim_reporter_bundle" />
+    <EmbeddedResource Include="ValheimReporter\Data\Images\NoPicture.png" />
+    <EmbeddedResource Include="ValheimReporter\Data\samples_categories.json" />
+    <EmbeddedResource Include="ValheimReporter\Data\categories.json"/>
+
   </ItemGroup>
 
 </Project>
